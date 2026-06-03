@@ -1,0 +1,10 @@
+export default {
+    prefix: [".", "!"], 
+    owners: [], // Isi dengan nomor WhatsApp pemilik bot (contoh: ["6281234567890"])
+    phoneNumber: "", // Isi dengan nomor bot Anda (contoh: "6281234567890") untuk login menggunakan Pairing Code
+    pterodactyl: {
+        url: "", //Ganti dengan URL Pterodactyl Panel (e.g., https://panel.example.com)
+        clientKey: "", // Ganti dengan Client API Key
+        appKey: "" // Ganti dengan Application API Key
+    }
+};
